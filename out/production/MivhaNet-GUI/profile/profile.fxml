@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121"
+          xmlns:fx="http://javafx.com/fxml/1" fx:controller="profile.profileCtrl">
+    <children>
+        <SplitPane dividerPositions="0.1807511737089202" orientation="VERTICAL" prefHeight="428.0" prefWidth="571.0">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                    <children>
+                        <HBox>
+                            <children>
+                                <Label alignment="CENTER" prefHeight="112.0" prefWidth="268.0" text="Your Profile">
+                                    <font>
+                                        <Font name="Corbel" size="45.0"/>
+                                    </font>
+                                </Label>
+                                <Label fx:id="username_label" alignment="CENTER" prefHeight="112.0" prefWidth="300.0"
+                                       text="[..]">
+                                    <font>
+                                        <Font name="Corbel" size="25.0"/>
+                                    </font>
+                                </Label>
+                            </children>
+                        </HBox>
+                    </children>
+                </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                    <children>
+                        <SplitPane dividerPositions="0.4137323943661972" prefHeight="400.0" prefWidth="570.0">
+                            <items>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                    <children>
+                                        <VBox spacing="30.0" AnchorPane.leftAnchor="0.0">
+                                            <padding>
+                                                <Insets bottom="30.0" left="30.0" top="30.0"/>
+                                            </padding>
+                                            <children>
+                                                <Button fx:id="create_user_btn" mnemonicParsing="false"
+                                                        onAction="#showCreateUser" prefWidth="150.0" text="Create User"
+                                                        visible="false"/>
+                                                <Button fx:id="open_course_btn" mnemonicParsing="false"
+                                                        onAction="#showOpenCourse" prefWidth="150.0" text="Open Course"
+                                                        visible="false"/>
+                                            </children>
+                                        </VBox>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                    <children>
+                                        <Pane fx:id="newUserPane" prefHeight="310.0" prefWidth="330.0" visible="false">
+                                            <children>
+                                                <VBox prefHeight="310.0" prefWidth="330.0" spacing="4.0">
+                                                    <children>
+                                                        <Label text="Create New User">
+                                                            <padding>
+                                                                <Insets top="15.0"/>
+                                                            </padding>
+                                                        </Label>
+                                                        <TextField fx:id="new_username" maxWidth="200.0" prefWidth="0.0"
+                                                                   promptText="Username">
+                                                            <font>
+                                                                <Font size="12.0"/>
+                                                            </font>
+                                                        </TextField>
+                                                        <TextField fx:id="new_firstname" maxWidth="200.0"
+                                                                   prefWidth="0.0" promptText="First Name">
+                                                            <font>
+                                                                <Font size="12.0"/>
+                                                            </font>
+                                                        </TextField>
+
+                                                        <TextField fx:id="new_lastname" maxWidth="200.0" prefWidth="0.0"
+                                                                   promptText="Last Name">
+                                                            <font>
+                                                                <Font size="12.0"/>
+                                                            </font>
+                                                        </TextField>
+                                                        <TextField fx:id="new_address" maxWidth="200.0" prefWidth="0.0"
+                                                                   promptText="Address">
+                                                            <font>
+                                                                <Font size="12.0"/>
+                                                            </font>
+                                                        </TextField>
+                                                        <TextField fx:id="new_phone" maxWidth="200.0" prefWidth="0.0"
+                                                                   promptText="Phone Number">
+                                                            <font>
+                                                                <Font size="12.0"/>
+                                                            </font>
+                                                        </TextField>
+                                                        <TextField fx:id="new_password" maxWidth="200.0" prefWidth="0.0"
+                                                                   promptText="Password">
+                                                            <font>
+                                                                <Font size="12.0"/>
+                                                            </font>
+                                                        </TextField>
+                                                        <TextField fx:id="new_email" maxWidth="200.0" prefWidth="0.0"
+                                                                   promptText="Email">
+                                                            <font>
+                                                                <Font size="12.0"/>
+                                                            </font>
+                                                        </TextField>
+                                                        <TextField fx:id="new_empnum" maxWidth="200.0" prefWidth="0.0"
+                                                                   promptText="Employee Number">
+                                                            <font>
+                                                                <Font size="12.0"/>
+                                                            </font>
+                                                        </TextField>
+                                                        <Button mnemonicParsing="false" onAction="#addNewUser"
+                                                                prefWidth="200.0" text="Create User">
+                                                            <font>
+                                                                <Font size="12.0"/>
+                                                            </font>
+                                                            <VBox.margin>
+                                                                <Insets top="3.0"/>
+                                                            </VBox.margin>
+                                                        </Button>
+                                                    </children>
+                                                    <padding>
+                                                        <Insets left="15.0"/>
+                                                    </padding>
+                                                </VBox>
+                                            </children>
+                                        </Pane>
+                                        <Pane fx:id="openCoursePane" prefHeight="310.0" prefWidth="330.0">
+                                            <children>
+                                                <VBox prefHeight="310.0" prefWidth="330.0" spacing="4.0">
+                                                    <children>
+                                                        <Label text="Open Course">
+                                                            <padding>
+                                                                <Insets top="15.0"/>
+                                                            </padding>
+                                                        </Label>
+                                                        <TextField fx:id="open_coursename" maxWidth="200.0"
+                                                                   prefWidth="0.0" promptText="Course Name">
+                                                            <font>
+                                                                <Font size="14.0"/>
+                                                            </font>
+                                                        </TextField>
+                                                        <TextField fx:id="open_coursenum" maxWidth="200.0"
+                                                                   prefWidth="0.0" promptText="Course Number">
+                                                            <font>
+                                                                <Font size="14.0"/>
+                                                            </font>
+                                                        </TextField>
+                                                        <TextField fx:id="open_year" maxWidth="200.0"
+                                                                   prefWidth="0.0" promptText="Year">
+                                                            <font>
+                                                                <Font size="14.0"/>
+                                                            </font>
+                                                        </TextField>
+                                                        <TextField fx:id="open_semester" maxWidth="200.0" prefWidth="0.0"
+                                                                   promptText="Semester">
+                                                            <font>
+                                                                <Font size="14.0"/>
+                                                            </font>
+                                                        </TextField>
+                                                        <Button mnemonicParsing="false" onAction="#openCourse"
+                                                                prefWidth="200.0" text="Submit Course">
+                                                            <font>
+                                                                <Font size="14.0"/>
+                                                            </font>
+                                                            <VBox.margin>
+                                                                <Insets top="3.0"/>
+                                                            </VBox.margin>
+                                                        </Button>
+                                                    </children>
+                                                    <padding>
+                                                        <Insets left="15.0"/>
+                                                    </padding>
+                                                </VBox>
+                                            </children>
+                                        </Pane>
+                                    </children>
+                                </AnchorPane>
+                            </items>
+                        </SplitPane>
+                    </children>
+                </AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+    <columnConstraints>
+        <ColumnConstraints/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints/>
+    </rowConstraints>
+</GridPane>
