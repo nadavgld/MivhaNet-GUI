@@ -12,10 +12,15 @@ import java.util.Observable;
 
 public class Model extends Observable {
 
+    private static Model _model = new Model();
     private User _user;
     private Stage primaryStage;
 
-    public Model(Stage primaryStage) {
+    private Model(){}
+
+    public static Model get_model() {return _model;}
+
+    public void setStage(Stage primaryStage) {
         this.primaryStage = primaryStage;
     }
 

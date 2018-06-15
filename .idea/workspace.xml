@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -61,8 +66,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="19" column="89" selection-start-line="19" selection-start-column="89" selection-end-line="19" selection-end-column="102" />
+            <state relative-caret-position="148">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,7 +109,7 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Classes/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
+            <state relative-caret-position="610">
               <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="method#User#0;class#User#0" />
@@ -123,19 +128,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profileCtrl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/profile/profileCtrl.java">
+      <file leaf-file-name="Model.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Classes/Model.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-322">
-              <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+            <state relative-caret-position="679">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#showOpenCourse#0;class#profileCtrl#0" />
-                <element signature="method#showCreateUser#0;class#profileCtrl#0" />
-                <element signature="method#disablePanes#0;class#profileCtrl#0" />
-                <element signature="method#clearNewUserForm#0;class#profileCtrl#0" />
-                <element signature="method#addNewUser#0;class#profileCtrl#0" />
-                <element signature="method#openCourse#0;class#profileCtrl#0" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="method#Login#0;class#Model#0" />
               </folding>
             </state>
           </provider>
@@ -144,11 +146,10 @@
       <file leaf-file-name="homepageCtrl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homepage/homepageCtrl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="151">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#submitLogin#0;class#homepageCtrl#0" />
               </folding>
             </state>
           </provider>
@@ -177,6 +178,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -195,7 +199,6 @@
         <option value="$PROJECT_DIR$/src/profile/homepage.fxml" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Controller.java" />
-        <option value="$PROJECT_DIR$/src/Main/Main.java" />
         <option value="$PROJECT_DIR$/src/Classes/User.java" />
         <option value="$PROJECT_DIR$/src/Classes/CourseManager.java" />
         <option value="$PROJECT_DIR$/src/profile/profile.fxml" />
@@ -207,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/Util/Utils.java" />
         <option value="$PROJECT_DIR$/src/profile/profileCtrl.java" />
         <option value="$PROJECT_DIR$/src/Classes/Model.java" />
+        <option value="$PROJECT_DIR$/src/Main/Main.java" />
       </list>
     </option>
   </component>
@@ -218,11 +222,12 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="1290" />
-    <option name="height" value="703" />
+    <option name="height" value="704" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -231,8 +236,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,7 +284,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,30 +422,32 @@
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1528874440671" duration="27348000" />
       <workItem from="1529056242909" duration="3898000" />
-      <workItem from="1529062521497" duration="796000" />
+      <workItem from="1529062521497" duration="1402000" />
+      <workItem from="1529085151782" duration="268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33344000" />
+    <option name="totallyTimeSpent" value="34218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2834758" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32897604" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.1704698" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17248322" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24966443" />
@@ -449,7 +456,6 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info anchor="right" id="JetGradle" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
@@ -529,6 +535,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Util/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#showAlert#0;class#Utils#0" />
+            <element signature="method#Login#0;class#Utils#0" />
+            <element signature="method#isSecretary#0;class#Utils#0" />
+            <element signature="method#getUserInfo#0;class#Utils#0" />
+            <element signature="method#createNewUser#0;class#Utils#0" />
+            <element signature="method#openNewCourse#0;class#Utils#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Classes/Secretary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Classes/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="method#User#0;class#User#0" />
+            <element signature="method#User#1;class#User#0" />
+            <element signature="method#User#3;class#User#0" />
+            <element signature="e#1967#1968#0" expanded="true" />
+            <element signature="e#1999#2000#0" expanded="true" />
+            <element signature="e#2128#2129#0" expanded="true" />
+            <element signature="e#2161#2162#0" expanded="true" />
+            <element signature="e#2293#2294#0" expanded="true" />
+            <element signature="e#2325#2326#0" expanded="true" />
+            <element signature="e#2447#2448#0" expanded="true" />
+            <element signature="e#2473#2474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homepage/homepageCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/profile/profileCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#showOpenCourse#0;class#profileCtrl#0" />
+            <element signature="method#showCreateUser#0;class#profileCtrl#0" />
+            <element signature="method#disablePanes#0;class#profileCtrl#0" />
+            <element signature="method#clearOpenCourseForm#0;class#profileCtrl#0" />
+            <element signature="method#clearNewUserForm#0;class#profileCtrl#0" />
+            <element signature="method#addNewUser#0;class#profileCtrl#0" />
+            <element signature="method#openCourse#0;class#profileCtrl#0" />
+            <element signature="method#update#0;class#profileCtrl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" column="89" selection-start-line="19" selection-start-column="89" selection-end-line="19" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
           <folding>
@@ -583,9 +674,11 @@
             <element signature="method#showOpenCourse#0;class#profileCtrl#0" />
             <element signature="method#showCreateUser#0;class#profileCtrl#0" />
             <element signature="method#disablePanes#0;class#profileCtrl#0" />
+            <element signature="method#clearOpenCourseForm#0;class#profileCtrl#0" />
             <element signature="method#clearNewUserForm#0;class#profileCtrl#0" />
             <element signature="method#addNewUser#0;class#profileCtrl#0" />
             <element signature="method#openCourse#0;class#profileCtrl#0" />
+            <element signature="method#update#0;class#profileCtrl#0" />
           </folding>
         </state>
       </provider>
@@ -606,7 +699,6 @@
           <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#submitLogin#0;class#homepageCtrl#0" />
           </folding>
         </state>
       </provider>
@@ -638,9 +730,11 @@
             <element signature="method#showOpenCourse#0;class#profileCtrl#0" />
             <element signature="method#showCreateUser#0;class#profileCtrl#0" />
             <element signature="method#disablePanes#0;class#profileCtrl#0" />
+            <element signature="method#clearOpenCourseForm#0;class#profileCtrl#0" />
             <element signature="method#clearNewUserForm#0;class#profileCtrl#0" />
             <element signature="method#addNewUser#0;class#profileCtrl#0" />
             <element signature="method#openCourse#0;class#profileCtrl#0" />
+            <element signature="method#update#0;class#profileCtrl#0" />
           </folding>
         </state>
       </provider>
@@ -674,8 +768,9 @@
           <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
             <element signature="method#Login#0;class#Model#0" />
-            <element signature="method#setScene#0;class#Model#0" />
           </folding>
         </state>
       </provider>
@@ -696,7 +791,6 @@
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#submitLogin#0;class#homepageCtrl#0" />
           </folding>
         </state>
       </provider>
@@ -847,28 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Classes/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Login#0;class#Model#0" />
-            <element signature="method#setScene#0;class#Model#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="19" column="89" selection-start-line="19" selection-start-column="89" selection-end-line="19" selection-end-column="102" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Classes/Secretary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -880,9 +952,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/profile/profileCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#showOpenCourse#0;class#profileCtrl#0" />
+            <element signature="method#showCreateUser#0;class#profileCtrl#0" />
+            <element signature="method#disablePanes#0;class#profileCtrl#0" />
+            <element signature="method#clearOpenCourseForm#0;class#profileCtrl#0" />
+            <element signature="method#clearNewUserForm#0;class#profileCtrl#0" />
+            <element signature="method#addNewUser#0;class#profileCtrl#0" />
+            <element signature="method#openCourse#0;class#profileCtrl#0" />
+            <element signature="method#update#0;class#profileCtrl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Classes/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
+        <state relative-caret-position="610">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="method#User#0;class#User#0" />
@@ -902,27 +992,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/homepage/homepageCtrl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="151">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#submitLogin#0;class#homepageCtrl#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/profile/profileCtrl.java">
+    <entry file="file://$PROJECT_DIR$/src/Main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-322">
-          <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+        <state relative-caret-position="148">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#showOpenCourse#0;class#profileCtrl#0" />
-            <element signature="method#showCreateUser#0;class#profileCtrl#0" />
-            <element signature="method#disablePanes#0;class#profileCtrl#0" />
-            <element signature="method#clearNewUserForm#0;class#profileCtrl#0" />
-            <element signature="method#addNewUser#0;class#profileCtrl#0" />
-            <element signature="method#openCourse#0;class#profileCtrl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Classes/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="method#Login#0;class#Model#0" />
           </folding>
         </state>
       </provider>

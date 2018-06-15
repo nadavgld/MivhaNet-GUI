@@ -14,7 +14,8 @@ public class Main extends Application {
     public static Model model;
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Model model = new Model(primaryStage);
+        Model model = Model.get_model();
+        model.setStage(primaryStage);
 
         FXMLLoader fxmlLoader = new FXMLLoader();
         Parent root = fxmlLoader.load(getClass().getResource("../homepage/homepage.fxml").openStream());
