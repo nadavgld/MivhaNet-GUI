@@ -49,7 +49,7 @@ public class profileCtrl implements Observer {
         disablePanes();
     }
 
-    public void initializeScene() {
+    private void initializeScene() {
         username_label.setText("[" + model.get_user().get_username() + "]");
 
         if (this.user instanceof Secretary) {
@@ -76,7 +76,7 @@ public class profileCtrl implements Observer {
         newUserPane.setVisible(true);
     }
 
-    public void disablePanes() {
+    private void disablePanes() {
         newUserPane.setVisible(false);
         openCoursePane.setVisible(false);
 
