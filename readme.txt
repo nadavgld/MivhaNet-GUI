@@ -7,8 +7,8 @@ profileCtrl:
 	public void setModel(Model model) //Sets the main model to the controller
 	public void showOpenCourse(ActionEvent actionEvent) //Shows open-new-course form
 	public void showCreateUser(ActionEvent actionEvent) //Shows create-new-user form
-    public void addNewUser(ActionEvent actionEvent) //Validates new-user form and passes to the Model to communicate with the DB
-    public void openCourse(ActionEvent actionEvent) //Validates new-course form and passes to the Model to communicate with the DB
+    	public void addNewUser(ActionEvent actionEvent) //Validates new-user form and passes to the Model to communicate with the DB
+    	public void openCourse(ActionEvent actionEvent) //Validates new-course form and passes to the Model to communicate with the DB
 	public void update(Observable o, Object arg) //Controller implements Observer - waiting for an unpdate from the Observable (Model)
 	
 
